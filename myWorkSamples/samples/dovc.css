@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+		 url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'),
+		 url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),
+		 url('fonts/woff/IRANSansWeb_Medium.woff') format('woff'),
+		 url('fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/eot/IRANSansWeb_Light.eot');
+	src: url('fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),
+		 url('fonts/woff/IRANSansWeb_Light.woff') format('woff'),
+		 url('fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/IRANSansWeb.eot');
+	src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/woff2/IRANSansWeb.woff2') format('woff2'),
+		 url('fonts/woff/IRANSansWeb.woff') format('woff'),
+		 url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+::selection {
+    background-color: #F9A825;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body {
+    font-family: IRANSans !important;
+    font-size: 16px;
+}
+
+/*header*/
+.nav-link {
+    font-size: .95em !important;
+    white-space: nowrap;
+}
+#navbar {
+    transition: all ease 0.4s;
+}
+
+/*title*/
+.title {
+    background-color: #FFC107 !important;
+}
+.title:nth-child(2) img:hover {
+    transition: all ease 0.2s;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+/*products*/
+.btn-1 {
+    font-size: 0.8em !important;
+}
+.card-hover {
+    opacity: 0;
+    transform: translateY(-70px);
+    transition: all ease 0.45s !important;
+}
+.card {
+    transition: all ease 0.45s !important;
+}
+.card:hover {
+    cursor: pointer !important;
+}
+.card:hover .card-hover{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+/*blog*/
+.blog i,.icon {
+    font-size: 1.7em !important;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px !important;
+    }
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 14px !important;
+    }
+    #navbar {
+        margin-bottom: 10px !important;
+        border: 1px solid #dee2e6 !important;
+    }
+    .navbar-nav:first-child a {
+        border-left: none !important;
+    }
+    .navbar-brand {
+        width: 2.9em !important;
+    }
+    .title {
+        flex-wrap: wrap !important;
+    }
+    .title-1 {
+        font-size: 1.65em !important;
+    }
+    .title-item {
+        display: grid !important;
+        justify-content: center !important;
+    }
+    #navbar {
+        border-color: #faaf36e8 !important;
+    }
+    .h2 {
+        font-size: 1.8em !important;
+    }
+    .navbar-brand-c {
+        width: 3.6em !important;
+    }
+}

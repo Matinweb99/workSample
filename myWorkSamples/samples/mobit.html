@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه اینترنتی مبیت</title>
+    <!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    -->
+    <link rel="stylesheet" href="mobitc.css">
+    <link rel="stylesheet" href="CDNs.bt/bootstrap.min.css">
+    <link rel="stylesheet" href="CDNs.bt/bootstrap-rtl.css">
+    <link rel="shortcut icon" href="img/mobit-logo.2a34475.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+</head>
+<body style="background-color: #f3f3f3 !important;">
+    <!--start-navbar-->
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content py-2 px-0">
+                <div class="modal-header row border-bottom-0 d-flex justify-content-center">
+                    <div class="col-9 d-flex justify-content-end align-items-center">
+                        <img src="img/mobit-logo.2a34475.svg" alt="mobit-logo" class="align-self-center py-3">
+                    </div>
+                    <div class="col-3 d-flex justify-content-end align-items-baseline">
+                        <div><button class="close align-self-start" data-dismiss="modal">&times;</button></div>
+                    </div>
+                </div>
+                <div class="modal-body d-flex justify-content-center flex-column align-items-center py-3">
+                    <p class="text muted pb-2">ورود به مبیت</p>
+                    <div class="form-group w-75">
+                        <input type="tel" class="form-control py-4" style="border:1px solid #52c0eb !important;" placeholder="شماره موبایل را وارد نمایید ...">
+                    </div>
+                    <button class="btn btn-success my-2 py-3 w-75">ورود به مبیت</button>
+                </div>
+                <div class="modal-footer d-flex justify-content-center border-top-0">
+                    <p class="text-muted text-center w-75" style="font-size: .9em;">با ورود به مبیت , موافقت خود را با قوانین و مقررات استفاده از آن اعلام و تایید می کنید. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-4">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content py-2 px-0">
+                <div class="modal-header mb-3 bg-white d-flex justify-content-center align-items-center border-bottom-0 w-100 shadow">
+                    <div class="input-group w-100">
+                        <i class="fas fa-times align-middle custom-search-icon-2" data-dismiss="modal"></i>
+                        <input type="search" class="form-control px-4 py-3 border-0 custom-search-input" placeholder="جستجوی کالا، دسته بندی و ...">
+                    </div>
+                </div>
+                <div class="modal-body bg-white p-2 border-top">
+                    <div class="p-2"><i class="fas fa-icons align-middle text-muted ml-2" style="font-size: 1.35em !important;"></i><span class="font-weight-light">پاور بانک</span></div>
+                    <div class="p-2"><i class="fas fa-icons align-middle text-muted ml-2" style="font-size: 1.35em !important;"></i><span class="font-weight-light">هارد اکسترنال</span></div>
+                    <div class="p-2"><i class="fas fa-icons align-middle text-muted ml-2" style="font-size: 1.35em !important;"></i><span class="font-weight-light">گوشی موبایل</span></div>
+                    <div class="p-2"><i class="fas fa-icons align-middle text-muted ml-2" style="font-size: 1.35em !important;"></i><span class="font-weight-light">کنسول بازی خانگی</span></div>
+                </div>
+                <div class="modal-footer bg-white p-2 custom-modal-footer">
+                    <p class="text-muted p-2 mb-2">جستجوهای محبوب</p>
+                    <div class="">
+                        <span class="badge badge-pill p-3 mb-2 font-weight-light" style="background-color: #e8f7fe !important;">گوشی شیائومی</span>
+                        <span class="badge badge-pill p-3 mb-2 font-weight-light" style="background-color: #e8f7fe !important;">سامسونگ</span>
+                    </div>
+                    <div class="">
+                        <span class="badge badge-pill p-3 mb-2 font-weight-light" style="background-color: #e8f7fe !important;">huawei y9 prime</span>
+                        <span class="badge badge-pill p-3 mb-2 font-weight-light" style="background-color: #e8f7fe !important;">هواوی</span>
+                        <span class="badge badge-pill p-3 mb-2 font-weight-light" style="background-color: #e8f7fe !important;">a71</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content py-2 px-0">
+                <div class="modal-header row border-bottom-0 d-flex justify-content-center">
+                    <div class="col-9 d-flex justify-content-end align-items-center">
+                        <img src="img/mobit-logo.2a34475.svg" alt="mobit-logo" class="align-self-center py-3">
+                    </div>
+                    <div class="col-3 d-flex justify-content-end align-items-baseline">
+                        <div><button class="close align-self-start" data-dismiss="modal">&times;</button></div>
+                    </div>
+                </div>
+                <div class="modal-body d-flex justify-content-center flex-column align-items-center py-3">
+                    <p class="text muted pb-2">ورود به مبیت</p>
+                    <div class="form-group w-75">
+                        <input type="tel" class="form-control py-4" style="border:1px solid #52c0eb !important;" placeholder="شماره موبایل را وارد نمایید ...">
+                    </div>
+                    <button class="btn btn-success my-2 py-3 w-75">ورود به مبیت</button>
+                </div>
+                <div class="modal-footer d-flex justify-content-center border-top-0">
+                    <p class="text-muted text-center w-75" style="font-size: .9em;">با ورود به مبیت , موافقت خود را با قوانین و مقررات استفاده از آن اعلام و تایید می کنید. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content py-2 px-0">
+                <div class="modal-header row d-flex justify-content-between border-bottom-0 align-items-start">
+                    <div class="col-9">
+                        <p class="text-dark text-left">استان مورد نظر را انتخاب کنید</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end align-items-start">
+                        <div><button class="close" data-dismiss="modal">&times;</button></div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <i class="fas fa-search text-muted custom-search-icon"></i>
+                        <input type="search" class="form-control custom-search-input" placeholder="استان مورد نظر را وارد نمایید">
+                    </div>
+                    <ul class="list-group custom-list-group">
+                        <li class="list-group-item list-group-item-action">آذربایجان شرقی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">آذربایجان غربی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">اردبیل<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">اصفهان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">البرز<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">ایلام<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">بوشهر<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">تهران<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">چهارمحال بختیاری<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">خراسان جنوبی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">خراسان رضوی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">خراسان شمالی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">خوزستان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">زنجان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">سمنان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">سیستان و بلوچستان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">فارس<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">قزوین<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">قم<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">کردستان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">کرمان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">کرمانشاه<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">کهگیلویه و بویراحمد<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">گلستان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">گیلان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">لرستان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">مازندران<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">مرکزی<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">هرمزگان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">همدان<i class="fas fa-angle-left align-middle"></i></li>
+                        <li class="list-group-item list-group-item-action">یزد<i class="fas fa-angle-left align-middle"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid shadow-sm bg-white px-2 sticky-top">
+        <div class="container custom-container">
+            <div class="row">
+                <nav class="navbar col-12 pt-1 pt-md-3 pb-0 pb-md-1  px-0 px-sm-3">
+                    <div class="col-lg-6 col-md-6 d-md-flex d-none align-items-center">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href="https://www.mobit.ir/" class="navbar-brand">
+                                    <img src="img/mobit-logo.2a34475.svg" alt="mobit-logo" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary"><i class="fas fa-search"></i></button>
+                                    </div>
+                                    <input type="search" class="form-control" placeholder="جستجوی کالا، دسته بندی ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 d-md-block d-none">
+                        <div class="row justify-content-lg-center justify-content-end">
+                            <div class="col-xl-8 col-9 d-flex justify-content-between">
+                                <a href="#login" data-toggle="modal" data-target="#modal-3" class="border-0">
+                                    <span>ورود</span>
+                                    <i class="fas fa-user align-middle px-2" style="font-size: 1.4em !important;"></i>
+                                </a>
+                                <a href="shopping-cart.html" class="pb-2">
+                                    <span>سبد خرید</span>
+                                    <i class="fas fa-shopping-cart align-middle px-2" style="font-size: 1.4em !important;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-5 d-flex d-md-none justify-content-start pr-0">
+                        <a href="https://www.mobit.ir/" class="mt-1 mr-1">
+                            <img src="img/mobit-logo.2a34475.svg" alt="mobit-logo" class="logo">
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex d-md-none justify-content-between pl-0">
+                        <a href="#search-modal" data-toggle="modal" data-target="#modal-4">
+                            <i class="fas fa-search text-dark custom-dropdown-i" style="font-size: 1.45em !important;outline: none !important;"></i>
+                        </a>
+                        <a href="#login" data-toggle="modal" data-target="#modal">
+                            <i class="fas fa-user text-dark custom-dropdown-i" style="font-size: 1.45em !important;"></i>
+                        </a>
+                        <a href="shopping-cart.html">
+                            <i class="fas fa-shopping-cart text-dark custom-dropdown-i" style="font-size: 1.45em !important;"></i>
+                        </a>
+                    </div>
+                </nav>
+                <nav class="navbar navbar-expand-md navbar-light bg-white col-12 px-0 px-sm-3 pb-1 py-md-2 align-items-baseline">
+                    <div class="col-sm-8 col-5 pr-2 pl-0">
+                        <button class="navbar-toggler px-2 py-1" data-toggle="collapse" data-target="#menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item custom-nav-item custom-nav-item-border pl-lg-2 pl-md-1"><a href="#category" class="nav-link text-dark text-nowrap"><i class="fas fa-bars align-middle d-none d-md-inline-block pl-2" style="font-size: 1.3em !important;"></i>دسته بندی کالا ها
+                                <div class="custom-dropdown d-none d-md-flex shadow bg-white">
+                                    <ul class="d-flex flex-column list-unstyled">
+                                        <li class="custom-dropdown-item custom-dropdown-item-1 p-3 list-group-item-action"><div class="d-flex justify-content-center align-items-center"><i class="fas fa-mobile custom-dropdown-i"></i></div><div>موبایل و تبلت</div> <div><i class="fas fa-angle-left align-middle"></i></div>
+                                            <div class="custom-dropdown-sub sub-1 bg-white shadow-sm">
+                                                <ul class="list-unstyled d-flex bg-white" style="border-radius: 20px !important;">
+                                                    <li class="p-3 list-group-item-action">شیائومی</li>
+                                                    <li class="p-3 list-group-item-action">سامسونگ</li>
+                                                    <li class="p-3 list-group-item-action">هوآوی</li>
+                                                    <li class="p-3 list-group-item-action">ال جی</li>
+                                                    <li class="p-3 list-group-item-action">آیفون</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="custom-dropdown-item p-3 list-group-item-action"><div class="d-flex justify-content-center align-items-center"><i class="fas fa-laptop custom-dropdown-i"></i></div><div>لپ تاپ و کامپیوتر</div> <div><i class="fas fa-angle-left align-middle"></i></div>
+                                            <div class="custom-dropdown-sub sub-2 bg-white shadow-sm">
+                                                <ul class="list-unstyled d-flex bg-white" style="border-radius: 20px !important;">
+                                                    <li class="p-3 list-group-item-action">قطعات کامپیوتر</li>
+                                                    <li class="p-3 list-group-item-action">ماشین های اداری</li>
+                                                    <li class="p-3 list-group-item-action">لپ تاپ</li>
+                                                    <li class="p-3 list-group-item-action">کامپیوتر کوچک</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="custom-dropdown-item p-3 list-group-item-action"><div class="d-flex justify-content-center align-items-center"><i class="fas fa-laptop custom-dropdown-i"></i></div><div>گجت های هوشمند</div> <div><i class="fas fa-angle-left align-middle"></i></div>
+                                            <div class="custom-dropdown-sub sub-3 bg-white shadow-sm">
+                                                <ul class="list-unstyled d-flex bg-white" style="border-radius: 20px !important;">
+                                                    <li class="p-3 list-group-item-action">مچ بند هوشمند</li>
+                                                    <li class="p-3 list-group-item-action">ساعت هوشمند</li>
+                                                    <li class="p-3 list-group-item-action">گجت های شیائومی</li>
+                                                    <li class="p-3 list-group-item-action">ترازوی هوشمند</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="custom-dropdown-item p-3 list-group-item-action"><div class="d-flex justify-content-center align-items-center"><i class="fas fa-laptop custom-dropdown-i"></i></div><div>لوازم صوتی و تصویری</div> <div><i class="fas fa-angle-left align-middle"></i></div>
+                                            <div class="custom-dropdown-sub sub-4 bg-white shadow-sm">
+                                                <ul class="list-unstyled d-flex bg-white" style="border-radius: 20px !important;">
+                                                    <li class="p-3 list-group-item-action">کنسول بازی</li>
+                                                    <li class="p-3 list-group-item-action">تلویزیون</li>
+                                                    <li class="p-3 list-group-item-action">لوازم جانبی صوتی و تصویری</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </a>
+                            </li>
+                                <li class="nav-item custom-nav-item px-lg-2 px-md-1"><a href="#offer" class="nav-link text-dark text-nowrap">تخفیف های امروز</a></li>
+                                <li class="nav-item custom-nav-item pr-lg-2 pr-md-1"><a href="" class="nav-link text-dark text-nowrap">مجله آنلاین مبیت</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-7 pr-1 pl-2 d-flex justify-content-end justify-content-md-center align-items-center">
+                        <a href="#city-modal">
+                            <p class="text-nowrap mb-0" data-toggle="modal" data-target="#modal-2"><i class="fas fa-map-marker-alt align-middle pl-1 pl-md-2"></i>لطفا شهر خود را انتخاب کنید</p>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--end-navbar-->
+
+    <!--start-slide-section-->
+        <section class="container custom-container px-0 mx-0 px-md-4 mx-md-auto">
+                <div class="custom-grid pb-md-1 pt-0 py-sm-3">
+                    <div class="grid-item-1">
+                        <div id="carouselId" class="carousel slide carousel-fade shadow" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselId" data-slide-to="1" class="active"></li>
+                                <li data-target="#carouselId" data-slide-to="2"></li>
+                                <li data-target="#carouselId" data-slide-to="3"></li>
+                                <li data-target="#carouselId" data-slide-to="4"></li>
+                                <li data-target="#carouselId" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img src="img/6069b8f221629.jpg" class="img-fluid" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/6069b9b75a640.jpg" class="img-fluid" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/6069baa81d66e.jpg" class="img-fluid" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/606aa1b3bb499.jpg" class="img-fluid" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/6069ba5c26378.jpg" class="img-fluid" alt="Fifth slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <img src="img/606709561eb8e.jpg" class="img-fluid custom-img shadow" alt="" style="border-radius: 30px;">
+                        <img src="img/60670917aea9a.jpg" class="img-fluid custom-img shadow" alt="" style="border-radius: 30px;">
+                        <div class="custom-res mt-1">
+                            <a href="" class="custom-res-item text-dark">
+                                <i class="fas fa-mobile bg-white"></i>
+                                <p class="mt-2">گوشی موبایل</p>
+                            </a>
+                            <a href="" class="custom-res-item text-dark">
+                                <i class="fas fa-desktop bg-white"></i>
+                                <p class="mt-2">قطعات کامپیوتر</p>
+                            </a>
+                            <a href="" class="custom-res-item text-dark">
+                                <i class="fas fa-laptop bg-white"></i>
+                                <p class="mt-2">لب تاب و الترابوک</p>
+                            </a>
+                            <a href="" class="custom-res-item text-dark">
+                                <i class="fas fa-gamepad bg-white"></i>
+                                <p class="mt-2">کنسول بازی</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item-2">
+                        <img src="img/606708e6dac92.jpg" class="img-fluid shadow" alt="" style="border-radius: 30px;">
+                        <img src="img/606708c533320.jpg" class="img-fluid shadow" alt="" style="border-radius: 30px;">
+                    </div>
+                </div>
+        </section>
+    <!--end-slide-section-->
+
+    <!--start-hot-offer-->
+        <section id="img" class="container-fluid p-5">
+            <div class="container custom-container p-2">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-md-5 col-xl-3 mb-4 col-sm-6">
+                        <img src="img/special-offer-title.af8fd0e.svg" alt="" class="card-img-top img-fluid mb-3">
+                        <small class="text-light font-weight-bold">تخفیف فقط برای امروز</small>
+                        <div class="d-flex justify-content-center align-items-center mt-5">
+                            <img src="img/special-sale-sign.37ed312.svg" alt="" class="w-50">
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center mt-3">
+                            <p class="text-white">12 : 54 : 01 &nbsp; <i class="far fa-clock"></i></p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-end mt-5">
+                            <button class="btn btn-block text-white btn-outline-secondary custom-button">مشاهده ی همه &nbsp;<i class="fas fa-angle-double-left align-middle text-white i"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-xl-3 mb-4 col-sm-6">
+                        <div class="card custom-card">
+                            <img src="img/5fddcd18acbdd.jpg" alt="" class="card-img-top img-fluid pt-3">
+                            <div class="card-body">
+                                <div class="card-title py-2">پایه نگهدارنده گوشی موبایل یسیدو مدل c91</div>
+                                <div class="card-text d-flex justify-content-between">
+                                    <span class="badge badge-pill badge-warning p-sm-2">18%</span>
+                                    <div class="card-text pr-1"><b>72,000</b>&nbsp;<span>تومان</span></div>
+                                </div>
+                                <div class="card-subtitle d-flex justify-content-end mt-2"><s class="text-muted">95,000</s></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-xl-3 mb-4 col-sm-6">
+                        <div class="card custom-card">
+                            <img src="img/36226238162.jpg" alt="" class="card-img-top img-fluid pt-3">
+                            <div class="card-body">
+                                <div class="card-title py-2">هارد دیسک اکسترنال silicon power مدل آرمون A80</div>
+                                <div class="card-text d-flex justify-content-between">
+                                    <span class="badge badge-pill badge-warning p-sm-2">15%</span>
+                                    <div class="card-text"><b>1,250,000</b>&nbsp;<span>تومان</span></div>
+                                </div>
+                                <div class="card-subtitle d-flex justify-content-end mt-2"><s class="text-muted">1,620,000</s></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-xl-3 mb-4 col-sm-6">
+                        <div class="card custom-card">
+                            <img src="img/60506a16e8c80.jpg" alt="" class="card-img-top img-fluid pt-3">
+                            <div class="card-body">
+                                <div class="card-title py-2">جامپ استارتر و پاوربانک شیائومی مدل Xiaomi 70mai</div>
+                                <div class="card-text d-flex justify-content-between">
+                                    <span class="badge badge-pill badge-warning p-sm-2">9%</span>
+                                    <div class="card-text pr-1"><b>487,000</b>&nbsp;<span>تومان</span></div>
+                                </div>
+                                <div class="card-subtitle d-flex justify-content-end mt-2"><s class="text-muted">513,000</s></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-hot-offer-->
+
+    <!--start-most-visited-->
+        <section class="container rounded-lg shadow mt-5 bg-white mb-3">
+            <h4 class="pt-4 px-3 custom-h4">پربازدید ترین ها</h4>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5f5f11e139514.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل شیائومی مدل POCO X3 دو سیم کارت ظرفیت 128 گیگابایت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>8,900,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/4421055077.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">هدفون بلوتوثی کیو اس وای مدل T5</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">391,000</s>
+                                    <span class="badge badge-warning p-2 mr-1 mb-1">12%</span>
+                                </div>
+                                <div>
+                                    <b>347,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/31228655613.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">هدفون بی سیم نیا مدل Q8-851S</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">223,000</s>
+                                    <span class="badge badge-warning p-2 mr-1 mb-1">11%</span>
+                                </div>
+                                <div>
+                                    <b>204,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5f101bb865dde.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">ساعت هوشمند هایلو مدل Solar Ls05</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">623,000</s>
+                                    <span class="badge badge-warning p-2 mr-1 mb-1">4%</span>
+                                </div>
+                                <div>
+                                    <b>612,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!---end-most-visited-->
+
+    <!--start-middle-offer-->
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 mb-3 col-10">
+                    <img src="img/606d85e987dcb.jpg" alt="" class="img-fluid" style="border-radius: 30px !important;">
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-3 col-10">
+                    <img src="img/60670e0f7507b.jpg" alt="" class="img-fluid" style="border-radius: 30px !important;">
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-3 d-none d-sm-flex">
+                    <img src="img/60670e328c7b6.jpg" alt="" class="img-fluid" style="border-radius: 30px !important;">
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-3 d-none d-sm-flex">
+                    <img src="img/60670d69c676d.jpg" alt="" class="img-fluid" style="border-radius: 30px !important;">
+                </div>
+            </div>
+        </section>
+    <!--end-middle-offer-->
+
+    <!--start-power-bank-->
+        <section class="container rounded-lg shadow bg-white mb-3">
+            <div class="d-flex justify-content-between align-items-center px-3 pt-4">
+                <h4 class="custom-h4">پاوربانک</h4>
+                <a href="" class="text-muted custom-button-2">مشاهده لیست کامل <i class="fas fa-angle-left align-middle text-info mr-1"></i></a>
+            </div>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/52486373529.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">شارژر همراه انرجایزر مدل UE10025QC ظرفیت 1000</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>319,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fd8bafbd0216.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">شارژر همراه مومکس مدل iPower Minimal PD3 IP70 ظرفیت 20000 میلی آمپر ساعت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">700,000</s>
+                                    <span class="badge badge-info p-2 mr-1 mb-1">22%</span>
+                                </div>
+                                <div>
+                                    <b>565,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/603f7eab99010.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">شارژر همراه باسئوس مدل BS-20KP202 ظرفیت 20000 میلی آمپر ساعت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">678,000</s>
+                                    <span class="badge badge-info p-2 mr-1 mb-1">6%</span>
+                                </div>
+                                <div>
+                                    <b>651,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/66593051215.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">پاوربانک اککیو مدل K20 ظرفیت 20000 میلی آمپر ساعت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>490,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-power-bank-->
+
+    <!--start-mobile-phone-->
+        <section class="container rounded-lg shadow bg-white mb-3">
+            <div class="d-flex justify-content-between align-items-center px-3 pt-4">
+                <h4 class="custom-h4">گوشی موبایل</h4>
+                <a href="" class="text-muted custom-button-2">مشاهده لیست کامل <i class="fas fa-angle-left align-middle text-info mr-1"></i></a>
+            </div>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5f2652a5de996.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل شیائومی مدل Redmi 9C دو سیم‌ کارت ظرفیت 32 گیگابایت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">8,650,000</s>
+                                    <span class="badge badge-info p-2 mr-1 mb-1">3%</span>
+                                </div>
+                                <div>
+                                    <b>8,150,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fabcedfbc9e0.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل سامسونگ مدل گلکسی A51 دو سیم کارت ظرفیت 128 گیگابایت با رم 6</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>3,519,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fb359441697b.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F دو سیم کارت ظرفیت 32 گیگابایت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">4,780,000</s>
+                                    <span class="badge badge-info p-2 mr-1 mb-1">1%</span>
+                                </div>
+                                <div>
+                                    <b>4,710,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5ff962a6dcd80.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل سامسونگ مدل Galaxy A42 5G دو سیم کارت ظرفیت 128 گیگابایت</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <s class="text-muted">6,650,000</s>
+                                    <span class="badge badge-info p-2 mr-1 mb-1">7%</span>
+                                </div>
+                                <div>
+                                    <b>6,320,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-mobile-phone-->
+
+    <!--start-side-mobile-->
+        <section class="container rounded-lg shadow bg-white mb-3">
+            <div class="d-flex justify-content-between align-items-center px-3 pt-4">
+                <h4 class="custom-h4">جانبی موبایل</h4>
+                <a href="" class="text-muted custom-button-2">مشاهده لیست کامل <i class="fas fa-angle-left align-middle text-info mr-1"></i></a>
+            </div>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/64165839220.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">محافظ صفحه نمایش دستبند هوشمند شیائومی مناسب برای Xiaomi Mi Band 4</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>18,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fe329492698c.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">پایه نگهدارنده موبایل WUW مدل Z07</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>93,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fead9d6d7644.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">کابل تبدیل USB به لایتنینگ کلومن مدل kd-14 طول 1 متر</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>49,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/34910694783.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">شارژر فندکی هانت کی مدل Carmate D20</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>78,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-side-mobile-->
+
+    <!--start-bottom-offer-->
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10 mb-3 col-12">
+                    <img src="img/5ff1f919da874.jpg" alt="" class="img-fluid" style="border-radius: 15px !important;">
+                </div>
+                <div class="col-lg-6 col-md-10  mb-3 col-12">
+                    <img src="img/6014f5e7bced0.jpg" alt="" class="img-fluid" style="border-radius: 15px !important;">
+                </div>
+            </div>
+        </section>
+    <!--end-bottom-offer-->
+
+    <!--start-newest-->
+        <section class="container rounded-lg shadow bg-white mb-3">
+                <h4 class="px-3 pt-4 custom-h4">جدیدترین گوشی ها</h4>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/6069453599647.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل شیائومی مدل Mi 11i دو سیم کارت ظرفیت 128 گیگابایت </div>
+                            <div class="card-text text-left d-flex flex-column align-items-center justify-content-end mt-2">
+                                <div>
+                                    <b class="text-info text-center">بزودی</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/6068490c42973.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل شیائومی مدل Xiaomi Black Shark 4 دو سیم کارت 12 گیگابایت </div>
+                            <div class="card-text text-left d-flex flex-column align-items-center justify-content-end mt-2">
+                                <div>
+                                    <b class="text-info text-center">بزودی</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/6068455a9b58c.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی موبایل شیائومی مدل Poco X3 Pro دو سیم‌ کارت ظرفیت 128 گیگابایت </div>
+                            <div class="card-text text-left d-flex flex-column align-items-center justify-content-end mt-2">
+                                <div>
+                                    <b class="text-info text-center">بزودی</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5ffd301f0bee9.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">گوشی سامسونگ مدل Galaxy S20 FE ظرفیت 128 گیگابایت رم 8 گیگابایت </div>
+                            <div class="card-text text-left d-flex flex-column align-items-center justify-content-end mt-2">
+                                <div>
+                                    <b class="text-info text-center">بزودی</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-newest-->
+
+    <!--start-new-products-->
+        <section class="container rounded-lg shadow bg-white mb-3">
+            <h4 class="px-3 pt-4 custom-h4">محصولات جدید</h4>
+            <hr>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/60756f2b1622d-w_332-h_332-q_80.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">هدفون بی‌ سیم هوآوی مدل FreeBuds Pro</div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>3,590,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/60756bae868c6-w_332-h_332-q_80.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">ساعت هوشمند هوآوی مدل GT 2e </div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>3,080,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5f65ef2ecb734.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">هدفون بی سیم هوآوی مدل Freebuds 3 </div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>2,130,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-8 col-11">
+                    <div class="card custom-card-2 p-2 mb-4">
+                        <img src="img/5fb3773077529.jpg" alt="" class="card-img-top img-fluid pt-2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-title py-2">اسپیکر بلوتوثی قابل حمل تسکو مدل TS 2391 </div>
+                            <div class="card-text text-left d-flex flex-column align-items-end justify-content-end mt-2">
+                                <div>
+                                    <b>840,000</b>&nbsp;<span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--end-new-products-->
+
+    <!--start-top-link-->
+        <div class="text-center mb-3">
+            <a href="#top" class="top-link text-muted" style="font-size: 1.2em !important;"><i class="far fa-arrow-alt-circle-right custom-i align-middle" style="font-size: 1.35em !important;"></i>&nbsp;&nbsp;برگشت به بالا</a>
+        </div>
+    <!--end-top-link-->
+
+    <!--start-top-footer-->
+        <div class="container-fluid border-top" style="background-color: #edf5f8 !important;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-md-5 col-sm-6 col-12 py-4">
+                        <div class="d-flex">
+                            <div style="width: 53px !important;"><i class="fas fa-qrcode custom-i-1" style="font-size: 2.85em !important;"></i><i class="fas fa-check-circle" style="font-size: 1.32em !important;"></i></div>
+                            <div class="px-4">
+                                <h6>تضمین اصالت کالا</h6>
+                                <small class="text-muted">تمامی کالا ها با گارانتی معتبر</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-5 col-sm-6 col-12 py-4">
+                        <div class="d-flex">
+                            <div style="width: 53px !important;"><i class="fas fa-box-open custom-i-2" style="font-size: 2.65em !important;"></i><i class="fas fa-smile-wink" style="font-size: 1.45em !important;"></i></div>
+                            <div class="px-4">
+                                <h6>گارانتی طلایی مبیت</h6>
+                                <small class="text-muted">مهلت 7 روزه بازگشت کالا</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-5 col-sm-6 col-12 py-4">
+                        <div class="d-flex">
+                            <div style="width: 53px !important;"><i class="fas fa-shipping-fast" style="font-size: 2.65em !important;"></i></div>
+                            <div class="px-4">
+                                <h6>ارسال سریع کالا</h6>
+                                <small class="text-muted">یک روز پس از سفارشات</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-5 col-sm-6 col-12 py-4">
+                        <div class="d-flex">
+                            <div style="width: 53px !important;"><i class="fas fa-headset custom-i-3" style="font-size: 2.65em !important;"></i></div>
+                            <div class="px-4">
+                                <h6>پشتیبانی تلفنی</h6>
+                                <small class="text-muted">پاسخگوی سوالات شما</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--end-top-footer-->
+
+    <!--start-footer-->
+        <div class="container-fluid">
+            <footer class="container">
+                <div class="row pt-4 border-bottom">
+                    <h6 class="col-12 pb-2 pb-sm-0" style="line-height: 2.3;">فروشگاه اینترنتی مبیت فقط با چند کلیک ساده</h6>
+                    <div class="col-lg-3 col-sm-6 py-lg-5 py-3 pl-0">
+                        <div class="d-flex">
+                            <div><i class="fas fa-phone" style="font-size: 1.5em !important;color: #1E88E5 !important;"></i></div>
+                            <div class="px-4">
+                                <h6 class="mb-3">شماره تماس</h6>
+                                <span class="text-muted">91002425 - 034</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 py-lg-5 py-3 pr-lg-0">
+                        <div class="d-flex">
+                            <div><i class="fas fa-envelope" style="font-size: 1.5em !important;color: #1E88E5 !important;"></i></div>
+                            <div class="pr-4">
+                                <h6 class="mb-3">آدرس ایمیل</h6>
+                                <span class="text-muted">info@mobit.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 py-lg-5 py-3 ">
+                        <div class="d-flex">
+                            <div><i class="fas fa-clock" style="font-size: 1.5em !important;color: #1E88E5 !important;"></i></div>
+                            <div class="pr-4 pl-2">
+                                <h6 class="mb-3">ساعات پاسخگویی</h6>
+                                <span class="text-muted">شنبه تا چهارشنبه 8:30 تا 21</span>
+                                <span class="text-muted">پنجشنبه 9 تا 20</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 py-lg-5 py-3 ">
+                        <div class="d-flex align-items-center">
+                            <div><i class="fas fa-qrcode" style="font-size: 4.8em !important;color: #222 !important;"></i></div>
+                            <div class="pr-4">
+                                <div class="pb-2"><img src="img/330_1090a12001b10f51cfa7cc97d0bc429a.png" alt="" style="max-width: 65% !important;height: auto !important;"></div>
+                                <div class="pt-2"><img src="img/index.png" alt="" style="max-width: 65% !important;height: auto !important;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-3 border-bottom">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <ul class="list-unstyled custom-ul">
+                            <li class="py-3"><a href="#" class="text-muted">درباره مبیت</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">تماس با مبیت</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">راهنمای جامع</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">فرصت های شغلی</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 pr-sm-0 pl-1">
+                        <ul class="list-unstyled custom-ul">
+                            <li class="py-3"><a href="#" class="text-muted">روش های پرداخت</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">روش ارسال کالا</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">لغو و بازگشت کالا</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">فروشنده شوید</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 pr-md-0 pl-1">
+                        <ul class="list-unstyled custom-ul">
+                            <li class="py-3"><a href="#" class="text-muted">حریم خصوصی</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">ضمانت اصالت کالا</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">شرایط و قوانین</a></li>
+                            <li class="py-3"><a href="#" class="text-muted">فاکتور های عصر ارتباط</a></li>
+                        </ul class="list-unstyled custom-ul">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 pr-lg-0 pr-sm-0 pr-md-3 pl-1">
+                        <ul class="list-unstyled">
+                            <li class="py-3"><a href="#" class="text-muted">پرسش های متداول</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-12 pr-0 d-flex justify-content-center align-items-baseline">
+                        <div><img src="img/logo.png" alt="" class="img-fluid py-3"></div>
+                        <div><img src="img/samandehi.png" alt="" class="img-fluid py-3"></div>
+                        <div><img src="img/ecunion.png" alt="" class="img-fluid py-3"></div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center justify-content-lg-start">
+                    <div class="col-lg-6 py-sm-5 py-4 custom-icon d-flex justify-content-center">
+                        <a href="https://www.instagram.com/mobit.ir/" class="ml-lg-5 mx-2"><i class="fab fa-instagram text-muted custom-instagram" style="font-size: 2em !important;"></i></a>
+                        <a href="https://t.me/mobit" class="ml-lg-5 mx-2"><i class="fab fa-telegram text-muted custom-telegram" style="font-size: 2em !important;"></i></a>
+                        <a href="https://twitter.com/mobitstore" class="ml-lg-5 mx-2"><i class="fab fa-twitter text-muted custom-twitter" style="font-size: 2em !important;"></i></a>
+                        <a href="https://www.facebook.com/mobit.ir.52" class="ml-lg-5 mx-2"><i class="fab fa-facebook text-muted custom-facebook" style="font-size: 2em !important;"></i></a>
+                        <a href="https://www.linkedin.com/company/mobitstore/people/" class="ml-lg-5 mx-2"><i class="fab fa-linkedin text-muted custom-linkedin" style="font-size: 2em !important;"></i></a>
+                        <a href="https://www.aparat.com/mobit" class="ml-lg-5 mx-2"><i class="fab fa-youtube text-muted custom-youtube" style="font-size: 2em !important;"></i></a>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center py-lg-5 py-4">
+                        <p class="text-muted text-center">کلیه حقوق این سایت متعلق به شرکت آواپرداز کیهان کریمان می باشد.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    <!--end-footer-->
+
+    <!--start-Bootstrap-js-cdn-->
+    <script src="CDNs.js/jquery-3.3.1.min.js"></script>
+    <script src="CDNs.js/popper.min.js"></script>
+    <script src="CDNs.js/bootstrap.min.js"></script>
+    <script src="CDNs.js/myscript.js"></script>
+    <!--end-Bootstrap-js-cdn-->
+
+
+</body>
+</html>

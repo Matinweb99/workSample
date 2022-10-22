@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ویزا 724 | مشاوره اخذ ویزا اقامت و مهاجرت به کانادا</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--start-header-->
+    <header class="flex justify-between xl:flex-col xl:justify-center items-center m-top-header px-3 py-1 xl:py-0 xl:px-0">
+        <div class="w-2/12 sm:w-3/12 md:w-4/12 h-full py-3 flex justify-start xl:hidden">
+            <button class="" type="menu" onclick="menu()">
+                <span class="ham-menu-1"></span>
+                <span class="ham-menu-2"></span>
+                <span class="ham-menu-3"></span>
+            </button>
+        </div>
+        <div class="w-8/12 sm:w-6/12 md:w-4/12 xl:w-full -mt-2 h-full self-start xl:self-center flex justify-center c-logo-container">
+            <div class="xl:w-3/12">
+                <a href="https://visa724.com/" class="flex items-center justify-center">
+                    <img src="img/logo.png" alt="logo" class="web-logo">
+                </a>
+            </div>
+        </div>
+        <div class="w-2/12 sm:w-3/12 md:w-4/12 h-full flex justify-end xl:hidden">
+            <a href="tel:02122927033" class="phone-icon p-2 bg-green-500 rounded-full">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone fa-w-16 text-white w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>
+            </a>
+        </div>
+        <nav class="hidden xl:flex d-menu mt-1">
+            <ul class="d-ul">
+                <a href="" class="nav-item nav-item-active">صفحه اصلی</a>
+                <a href="" class="nav-item">بهترین روش های مهاجرت به کانادا</a>
+                <a href="" class="nav-item">شرایط انواع ویزای کانادا</a>
+                <a href="" class="nav-item">ویزای تحصیلی کانادا</a>
+                <li class="nav-item flex justify-between" onclick="openSmenu()">سرمایه گذاری در کانادا
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 w-2 text-gray-700 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+                </li>
+                <div class="smenu" id="smenu">
+                    <ul class="flex flex-col p-3 smenu-ul">
+                        <a href="" class="d-smenu">خرید بیزینس</a>
+                        <a href="" class="d-smenu">سرمایه گذاری در کبک</a>
+                        <a href="" class="d-smenu">استارت آپ کانادا</a>
+                        <a href="" class="d-smenu">بهترین روش های سرمایه گذاری کانادا</a>
+                    </ul>
+                </div>
+                <a href="" class="nav-item">رزرو وقت مشاوره</a>
+                <a href="" class="nav-item">فرم های ارزیابی</a>
+                <li class="nav-item flex justify-between" onclick="openSmenu2()">تماس با ما
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 w-2 text-gray-700 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+                </li>
+                <div class="smenu-2" id="smenu-2">
+                    <ul class="flex flex-col p-3 smenu-ul">
+                        <a href="" class="d-smenu">آدرس دفاتر و شماره تماس</a>
+                        <a href="" class="d-smenu">همکاری با ما</a>
+                        <a href="" class="d-smenu">اخبار و مقالات</a>
+                    </ul>
+                </div>
+                <a href="" class="nav-item">درباره ما و مجوزها</a>
+                <a href="" class="nav-item">ورود | ثبت نام</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu" id="menu">
+        <ul class="menu-ul">
+            <a href="" class="menu-item">صفحه اصلی </a>
+            <a href="" class="menu-item">بهترین روش های مهاجرت به کانادا</a>
+            <a href="" class="menu-item">شرایط انواع ویزای کانادا</a>
+            <a href="" class="menu-item">ویزای تحصیلی کانادا</a>
+            <li class="menu-item flex justify-between" onclick="invest()">سرمایه گذاری در کانادا
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 w-3 text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+            </li>
+            <div class="sub-menu" id="sub-menu">
+                <ul class="submenu-ul">
+                    <a href="" class="submenu-item">- خرید بیزینس</a>
+                    <a href="" class="submenu-item">- سرمایه گذاری در کبک</a>
+                    <a href="" class="submenu-item">- استارت آپ کانادا</a>
+                    <a href="" class="submenu-item">- بهترین روش های سرمایه گذاری کانادا</a>
+                </ul>
+            </div>
+            <a href="" class="menu-item">رزرو وقت مشاوره </a>
+            <a href="" class="menu-item">فرم های ارزیابی</a>
+            <li class="menu-item flex justify-between" onclick="phoning()">تماس با ما
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 w-3 text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+            </li>
+            <div href="" class="sub-menu" id="sub-menu-2">
+                <ul class="submenu-ul">
+                    <a href="" class="submenu-item">- آدرس دفاتر و شماره تماس</a>
+                    <a href="" class="submenu-item">- همکاری با ما</a>
+                    <a href="" class="submenu-item">- اخبار و مقالات</a>
+                </ul>
+            </div>
+            <a href="" class="menu-item">درباره ما و مجوزها</a>
+            <a href="" class="menu-item"> ورود | ثبت نام</a>
+        </ul>
+    </div>
+    <!--end-header-->
+
+    <!--start-main-->
+    <main>
+        <div class="top-con flex flex-col items-center py-3">
+            <div class="w-2/3 mt-3 lg:mt-6" style="z-index: 3;">
+                <h2 class="text-black font-black text-3xl lg:text-4xl lg:tracking-wide text-white leading-loose text-center">ویزا 724 - شرکت مهاجرتی  کاناداپاس</h2>
+            </div>
+            <div class="top-input-con w-full flex items-center flex-col mt-6 lg:mt-16" style="z-index: 3;">
+                <div class="flex justify-center">
+                    <p class="text-center text-white lg:text-lg xl:text-xl">لطفا قاره و کشور مقصد خود را انتخاب کنید.</p>
+                </div>
+                <div class="w-full flex flex-col lg:flex-row items-center lg:justify-center lg:mt-10">
+                    <select class="text-center mt-6 w-3/4 lg:w-3/12 lg:m-3 p-2 rounded-lg select-shadow xl:px-5 xl:py-3" name="continent" id="continent-sel">
+                        <option value="" selected>انتخاب قاره</option>
+                        <option value="usa" id="first" onclick="usa()">آمریکا</option>
+                        <option value="eur" id="second" onclick="eur()">اروپا</option>
+                        <option value="oce" id="third" onclick="oce()">اقیانوسیه</option>
+                    </select>
+                    <select class="text-center mt-6 w-3/4 lg:w-3/12 lg:m-3 p-2 rounded-lg select-shadow xl:px-5 xl:py-3" name="contries" id="america">
+                        <option value="" selected>انتخاب کشور</option>
+                        <option value="">آمریکا</option>
+                        <option value="">کانادا</option>
+                    </select>
+                    <select class="text-center mt-6 w-3/4 lg:w-3/12 lg:m-3 p-2 rounded-lg select-shadow d-none xl:px-5 xl:py-3" name="contries" id="europe">
+                        <option value="" selected>انتخاب کشور</option>
+                        <option value="">آلمان</option>
+                        <option value="">اتریش</option>
+                        <option value="">اسپانیا</option>
+                        <option value="">انگلیس</option>
+                        <option value="">ایتالیا</option>
+                        <option value="">بلژیک</option>
+                        <option value="">پرتغال</option>
+                        <option value="">چک</option>
+                        <option value="">دانمارک</option>
+                        <option value="">سوئد</option>
+                        <option value="">فرانسه</option>
+                        <option value="">فنلاند</option>
+                        <option value="">نروژ</option>
+                        <option value="">هلند</option>
+                        <option value="">یونان</option>
+                    </select>
+                    <select class="text-center mt-6 w-3/4 lg:w-3/12 lg:m-3 p-2 rounded-lg select-shadow d-none xl:px-5 xl:py-3" name="contries" id="ocean">
+                        <option value="" selected>انتخاب کشور</option>
+                        <option value="">استرالیا</option>
+                    </select>
+                    <div class="w-3/4 lg:w-3/12 lg:m-3 mt-5">
+                        <button class="relative w-full text-indigo-900 py-2 bg-yellow-400 hover:bg-yellow-500 rounded-lg select-shadow xl:px-5 xl:py-3" type="button">جستجو
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 w-5 xl:w-6 absolute search-icon text-indigo-900" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex w-3/4 lg:w-6/12">
+                    <div class="mt-3 xl:py-5">
+                        <p class="leading-loose text-sm lg:text-lg xl:text-xl font-medium text-white text-justify p-2">با مدیریت مهیار حلاج پور، عضو رسمی مشاورین مهاجرت کانادا: ICCRC با مجوز رسمی از وزارت کار ایران 103621</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center mt-12">
+            <div class="custom-title">
+                <h2 class="font-semibold px-2 text-blue-700 text-xl sm:text-2xl lg:text-3xl">هر آنچه برای سفر نیاز دارید</h2>
+            </div>
+            <div class="w-10/12 lg:w-full mt-8">
+                <div class="flex flex-col lg:flex-row items-center lg:justify-around">
+                    <div class="flex flex-col w-11/12 sm:w-8/12 lg:w-3/12 items-center card-shadow card-radius pb-3 lg:mt-12">
+                        <div>
+                            <img class="image-control" src="img/migrate-via-startup.jpg" alt="migrate-via-startup">
+                        </div>
+                        <div class="flex flex-col items-center lg:justify-between p-3">
+                            <h3 class="font-semibold text-xl mt-auto text-blue-800 leading-relaxed text-justify">مهاجرت به کانادا از طریق استارت آپ</h3>
+                            <p class="text-justify leading-relaxed mt-4 text-color">توضیحات کامل اخذ اقامت کانادا از طریق استارت آپ ویزای کانادا با وکیل مهاجرت کانادا</p>
+                            <div class="mt-6">
+                                <button class="px-4 py-3 bg-blue-700 hover:bg-blue-800 text-white text-sm font-medium rounded flex items-center">مشاهده اطلاعات بیشتر</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-11/12 sm:w-8/12 lg:w-3/12 items-center card-shadow card-radius pb-3 mt-12">
+                        <div>
+                            <img class="image-control-2" src="img/migrate-lawer.jpg" alt="migrate-via-startup">
+                        </div>
+                        <div class="flex flex-col items-center lg:justify-between p-3">
+                            <h3 class="font-semibold text-xl mt-auto text-blue-800 leading-relaxed text-justify">وکیل مهاجرت کانادا</h3>
+                            <p class="text-justify leading-relaxed mt-4 text-color">آموزش نحوه استعلام وکیل مهاجرت کانادا و ویزای کانادا</p>
+                            <div class="mt-6">
+                                <button class="px-4 py-3 bg-blue-700 hover:bg-blue-800 text-white font-medium text-sm rounded">مشاهده اطلاعات بیشتر</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-11/12 sm:w-8/12 lg:w-3/12 items-center card-shadow card-radius pb-3 mt-12">
+                        <div>
+                            <img class="image-control" src="img/edu-visa.jpg" alt="migrate-via-startup">
+                        </div>
+                        <div class="flex flex-col items-center lg:justify-between p-3">
+                            <h3 class="font-semibold text-xl mt-auto text-blue-800 leading-relaxed text-justify">ویزای تحصیلی کانادا</h3>
+                            <p class="text-justify leading-relaxed mt-4 text-color">اخذ پذیرش و تحصیل در کانادا توسط عضو رسمی شورای نظارت بر امور مهاجرت کانادا ICCRC</p>
+                            <div class="mt-6">
+                                <button class="px-4 py-3 bg-blue-700 hover:bg-blue-800 text-white font-medium text-sm rounded">مشاهده اطلاعات بیشتر</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative flex flex-col sm:w-9/12 lg:w-5/12  items-center mt-10 flag-shadow justify-center">
+                <img src="img/canada-flag.jpg" alt="canada-flag">
+                <p class="absolute px-1 py-3 font-medium text-xl text-white text-center flex flex-col justify-center c-paragragh">همه چیز درباره ی ویزا و مهاجرت به کانادا</p>
+            </div>
+            <div class="w-full flex flex-col items-center lg:flex-row lg:flex-wrap lg:justify-center mt-10 p-1 pb-12 mid-con">
+                <div class="w-full lg:w-10/12 mt-4">
+                    <img src="img/Propertypic.png" alt="Propertypic">
+                </div>
+                <div class="flex w-9/12 sm:w-6/12 lg:w-3/12 flex-col items-center card-2-shadow card-radius px-3 py-5 mt-5 lg:mt-16">
+                    <div class="bg-white p-1 rounded-full">
+                        <img class="rounded-full bg-gray-400 w-16 shadow-lg p-1" src="img/operator.png" alt="operator">
+                    </div>
+                    <div class="flex flex-col items-center mt-4">
+                        <h3 class="text-center text-yellow-600 font-semibold text-xl">مشاوره مهاجرت همیشه در دسترس</h3>
+                        <p class="text-justify text-gray-300 leading-loose mt-5 p-2">visa 724 در 7 روز هفته و 24 ساعته در دسترس شماست. میتوانید با مراجعه به بخش های مشاوره رایگان، رزرو وقت مشاوره و تکمیل فرمهای ارزیابی، ما را از تصمیم خود مطلع سازید.</p>
+                    </div>
+                </div>
+                <div class="flex w-9/12 sm:w-6/12 lg:w-3/12 flex-col items-center card-2-shadow card-radius px-3 py-5 mt-16 lg:mx-10">
+                    <div class="bg-white p-1 rounded-full">
+                        <img class="rounded-full bg-gray-400 w-16 shadow-lg p-1" src="img/lawyer.png" alt="lawyer-image">
+                    </div>
+                    <div class="flex flex-col items-center mt-4">
+                        <h3 class="text-center text-yellow-600 font-semibold text-xl">مشاور و وکیل رسمی مهاجرت</h3>
+                        <p class="text-justify text-gray-300 leading-loose mt-5 p-2">این اطمینان را داشته باشید که تمامی خدمات ویزا 724 توسط وکلای رسمی مهاجرت، کاملا قانونی و حرفه ای انجام خواهد شد.</p>
+                    </div>
+                </div>
+                <div class="flex w-9/12 sm:w-6/12 lg:w-3/12 flex-col items-center card-2-shadow card-radius px-3 py-5 mt-16">
+                    <div class="bg-white p-1 rounded-full">
+                        <img class="rounded-full bg-gray-400 w-16 shadow-lg p-1" src="img/pin.png" alt="residence-image">
+                    </div>
+                    <div class="flex flex-col items-center mt-4">
+                        <h3 class="text-center text-yellow-600 font-semibold text-xl">دریافت اقامت و ویزا</h3>
+                        <p class="text-justify text-gray-300 leading-loose mt-5 p-2">سابقه درخشان و چندین ساله ما گواهی بر انتخابی مطمئن و ایمن شما برای مهاجرت و یا دریافت ویزا خواهد بود.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full mt-10 flex-col items-center lg:w-9/12 p-2">
+                <div class="flex justify-center">
+                    <h2 class="font-semibold text-lg text-center border-b-2 text-blue-700 border-blue-800 pb-2">روش های اصلی مهاجرت به کانادا</h2>
+                </div>
+                <div class="flex flex-col items-center mt-8 p-2">
+                    <p class="leading-relaxed font-medium text-justify text-color">روشهای بسیاری برای <span class="text-blue-700">مهاجرت به کانادا</span> وجود دارد، که می توان اصلی ترین آنها را به 8 دسته کلی تقسیم بندی کرد.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+                        1. مهاجرت به کانادا از طریق <span class="text-blue-700">اکسپرس اینتری</span>: این روش مهاجرتی کانادا، سریعترین و ارزانترین روش مهاجرت به کاناداست، که بر مبنای سیستم امتیاز بندی ست و با اقامت دائم کانادا همراه است.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        2. مهاجرت به کانادا از طریق <span class="text-blue-700">استارتاپ ویزا</span>: این روش سرمایه محور است و می توان گفت، در حال حاضر یکی از بهترین روشهای دریافت اقامت دائم کاناداست. با ارائه یک بیزینس پلن استارتاپی، میتوانید به اقامت دائم کانادا دست پیدا کنید.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        3. مهاجرت به کانادا از طریق <span class="text-blue-700">سرمایه گذاری و کارآفرینی</span>: این روش مهاجرتی کانادا سرمایه محور است، یعنی مهمترین موضوع در این برنامه مهاجرتی، سرمایه کافی همراه با سوابق مدیریتی ست. شما در این برنامه مهاجرتی کانادا، میتوانید یک بیزینس را در کانادا از صفر راه اندازی کرده یا بیزینسی را در کانادا خریداری کنید. قوانین هر استان در کانادا با استان دیگر کاملا متفاوت است.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        4. مهاجرت به کانادا از طریق <span class="text-blue-700">ویزای تحصیلی کانادا</span>: یکی از متداول ترین روشهای مهاجرتی کانادا، اخذ اقامت کانادا پس از گذراندن دوره های تحصیلی ست. پس از فارغ التحصیلی در مراکز آموزشی کانادا، با کسب امتیازات لازمه، میتوانید برای اقامت دائم کانادا اقدام کنید.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        5. مهاجرت به کانادا از طریق ثبت شرکت <span class="text-blue-700">ثبت شرکت</span> ( owner operato – ICT ): این برنامه مهاجرتی کانادا، سرمایه محور است، اما نسبت به برنامه کارآفرینی کانادا به نسبت سرمایه کمتری نیاز دارید. در این برنامه مهاجرتی ارائه مدرک زبان الزامی نیست و با خرید یا راه اندازی بیزینس های کوچک در کانادا یا اخذ نمایندگی بیزینس خود در کانادا، می توانید از این طریق برای دریافت ویزای کار کانادا و پلن مهاجرتی خود، برنامه ریزی کنید.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        6. <span class="text-blue-700">مهاجرت کاری به کانادا</span>: در این برنامه مهاجرتی کانادا اگر بتوانید از یک کارفرمای واجد شرایط اهدای جاب آفر (فرصت شغلی) دعوت نامه کاری دریافت کنید، میتوانید برای ویزای کار کانادا اقدام کنید، البته در برخی استان ها، شروع این پروسه می تواند با اقامت دائم همراه باشد. مثلا در استانهای آتلانتیک کانادا.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        7. مهاجرت به کانادا از طریق <span class="text-blue-700">اسپانسرشیپ</span>: کسانی که اقامت دائم کانادا دارند یا شهروند کانادایی هستند، میتوانند والدین یا همسر خود را از این طریق برای دریافت اقامت کانادا اسپانسر کنند.</p> 
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        8. مهاجرت به کانادا از طریق <span class="text-blue-700">خود اشتغالی</span>: این برنامه مهاجرتی مختص به هنرمندان و ورزشکاران است یا کسانی که در این حیطه فعالیت جدی داشته و توانسته اند از این راه کسب درآمد کنند. این برنامه مهاجرت با اقامت دائم کانادا در ابتدا همراه است که البته سخت گیری های اداره مهاجرت برای این برنامه مهاجرتی کانادا، بسیار است.</p>
+                    <p class="leading-relaxed font-medium text-justify mt-6 text-color">
+
+                        در نهایت باید توجه داشته باشید که، انتخاب درست برنامه مهاجرتی با توجه به شرایط هر فرد کاملا متفاوت است و اهمیت بسیاری دارد. درصورتی که برنامه مهاجرتی خود را به درستی انتخاب نکنید، ممکن است هزینه های بی ثمر بسیاری را متحمل شوید و زمان خود را برای رسیدن به <span class="text-blue-700">اقامت کانادا</span> از دست بدهید. بنابراین توصیه می شود قبل از هرگونه اقدام مهاجرتی، مشاوره تخصصی دریافت کنید، که راه مهاجرت کانادا را به درستی انتخاب نمایید.
+                    </p>
+                    <button class="flex justify-between px-5 py-3 lg:px-8 lg:py-5 lg:text-lg border-2 border-white bg-red-700 text-white hover:bg-white hover:text-red-700 hover:border-red-700 rounded-lg items-center mt-8" type="button">مشاوره رایگان مهاجرت&nbsp;&nbsp;
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 w-4" style="transform: rotate(90deg)" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+                    </button>              
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--end-main-->
+
+    <!--start-footer-->
+    <footer class="mt-5">
+        <div class="flex flex-col items-center lg:flex-row lg:justify-center lg:flex-wrap lg:items-start footer-con">
+            <div class="w-full lg:w-4/12 flex flex-col items-center justify-center mt-8">
+                <h3 class="w-10/12 sm:w-8/12 md:w-6/12 lg:w-10/12 font-medium text-center border-b-2 text-yellow-400 border-yellow-500 pb-4">آخرین مقالات</h3>      
+                <div class="flex flex-col items-center w-full">
+                    <div class="c-article w-11/12 sm:w-8/12 md:w-6/12 lg:w-10/12 flex mt-5 sm:mt-8">
+                        <img class="h-full w-4/12" src="img/mountral.jpg" alt="mountral-uni">
+                        <p class="text-white p-2 leading-relaxed text-sm">پذیرش دانشگاه مونترال + شرایط و ...
+                            <a class="mr-1 text-blue-500" href="">ادامه مطلب ...</a>
+                        </p>
+                    </div>
+                    <div class="c-article w-11/12 sm:w-8/12 md:w-6/12 lg:w-10/12 flex mt-4 sm:mt-6">
+                        <img class="h-full w-4/12" src="img/edu-acception.jpg" alt="edu-acception">
+                        <p class="text-white p-2 leading-relaxed text-sm">دریافت پذیرش تحصیلی از دانشگاه ...
+                            <a class="mr-1 text-blue-500" href="">ادامه مطلب ...</a>
+                        </p>
+                    </div>
+                    <div class="c-article w-11/12 sm:w-8/12 md:w-6/12 lg:w-10/12 flex mt-4 sm:mt-6">
+                        <img class="h-full w-4/12" src="img/migrate-to-colombia.jpg" alt="migrate-to-colombia">
+                        <p class="text-white p-2 leading-relaxed text-sm">مهاجرت به بریتیش کلمبیا و زندگی ...
+                            <a class="mr-1 text-blue-500" href="">ادامه مطلب ...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-6/12 flex flex-col items-center justify-center mt-8">
+                <h3 class="w-10/12 sm:w-8/12 md:w-6/12 lg:w-10/12 font-medium text-center border-b-2 text-yellow-400 border-yellow-500 pb-4">ارتباط با ما</h3>
+                <div class="flex flex-col items-center sm:items-start w-10/12 sm:w-8/12 md:w-6/12 lg:w-10/12 mt-5 p-2 text-white">
+                    <p class="p-2 font-medium bg-blue-600 text-white">آدرس و راه های ارتباطی :</p>
+                    <ul class="p-4 text-sm">
+                        <li class="py-2">- شرکت مهاجرتی کاناداپاس (ویزا724)</li>
+                        <li class="py-2">- کاریابی بین المللی مهیار</li>
+                        <li class="py-2">- شرکت توسعه استارتاپ و سرمایه گذاری i3capital</li>
+                        <li class="py-2">- دارای مجوزرسمی از وزارت کار و رفاه اجتماعی ایران با ش.ث: 103621 </li>
+                        <li class="py-2">- دارای مجوز رسمی اداره مهاجرت کانادا: ICCRC R520250</li>
+                    </ul>
+                    <p class="p-2 text-sm text-white">با مدیریت مهیار حلاج پور، عضو رسمی شورای قانونگذاری مشاورین مهاجرت کانادا</p>
+                    <p class="p-2 mt-3 text-sm text-yellow-500 self-start">دفتر مرکزی (کانادا - تورنتو) : </p>
+                    <p class="p-2 text-sm"> No.25 Shepard Ave W Suite 300 North York ON M2N 6S6 (مراجعه با رزرو وقت قبلی)</p>
+                    <p class="p-2 text-sm">
+                        0014168905972 (پاسخ‌گویی: دوشنبه تا شنبه 18:00 الی 02:00 بوقت تهران)</p>
+                    <p class="p-2 mt-3 text-sm text-yellow-500 self-start">واتساپ کانادا :</p>
+                    <p class="p-2 text-sm">16477627724+ (پاسخگویی به پیامهای متنی در واتساپ)</p>
+                    <p class="p-2 mt-3 text-sm text-yellow-500 self-start">دفتر ایران : </p>
+                    <p class="p-2 text-sm">02122927033 - 02128421010 (پاسخ‌گویی: شنبه تا چهارشنبه 10:00 الی 17:00 بوقت تهران) - (پنجشنبه: 10 الی 14:00)</p>
+                    <p class="p-2 text-sm">تهران - بزرگراه مدرس شمال، خیابان دستگردی شرقی(ظفر)، جنب بیمارستان علی اصغر، پلاک 199 طبقه سوم، واحد 301 (مراجعه با رزرو وقت قبلی)</p>
+                    <p class="p-2 mt-3 text-sm text-yellow-500 self-start">واتساپ دفتر ایران :</p>
+                    <p class="p-2 text-sm">09124644197 (پاسخ‌گویی: 10:00 الی 18:00 بوقت تهران)</p>
+                    <p class="mt-4 p-2 text-sm font-medium text-yellow-500 leading-loose">* برای مطالعه 10 روش اصلی مهاجرت کانادا، به صفحه <a class="text-blue-400" href="">مهاجرت به کانادا</a> مراجعه بفرمایید.</p>
+                    <p class="mt-2 p-2 text-sm font-medium">ایمیل : info[at]visa724.com </p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="sm:self-center lg:self-center">
+                    <img class="mt-6" src="img/footer_logo.png" alt="footer-logo">
+                </div>
+                <p class="mt-6 font-semibold text-yellow-600 text-center p-3 sm:self-center lg:text-xl">تمامی حقوق این سایت مربوط به <span class="text-white">ویزا 724 </span> می باشد.</p>
+                <div class="flex justify-center mt-6">
+                    <a href="https://t.me/visa_724">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram-plane" class="svg-inline--fa fa-telegram-plane fa-w-14 w-5 text-blue-400" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/company/visa724">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14 w-5 text-blue-500 mx-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a>
+                    <a href="https://instagram.com/visa724com">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14 w-5 text-red-900" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                    </a>
+                </div>
+                <div class="-m-2 mt-16 lg:w-9/12">
+                    <img src="img/index.png" alt="bottom-image">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end-footer-->
+
+    <!--start-bottom-header-->
+    <div class="flex justify-between sm:justify-around flex-wrap items-center m-bottom-header px-3 py-4 border-t border-gray-800 xl:hidden">
+        <div>
+            <a class="bg-red-700 text-white text-sm font-medium px-3 py-2 btn-style btn-style-1" href="">فرم ارزیابی رایگان</a>
+        </div>
+        <div>
+            <a class="bg-gray-800 text-white text-sm font-medium px-3 py-2 btn-style btn-style-2"  href="">درباره ما</a>
+        </div>
+        <div>
+            <a class="bg-blue-700 text-white text-sm font-medium px-3 py-2 btn-style btn-style-3"  href="">رزرو وقت مشاوره</a>
+        </div>
+    </div>
+    <!--end-bottom-header-->
+<script src="main.js"></script>
+</body>
+</html>

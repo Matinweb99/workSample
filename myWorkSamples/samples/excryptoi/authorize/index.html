@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>اکسکریپتویی | احراز هویت</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <img class="logo" src="./img/Logo.svg" alt="logo">
+            <div class="main-nav" id="mainnav">
+                <div class="main-nav-div">
+                    <a class="nav-element" href="#">خانه</a>
+                    <a class="nav-element" href="#">بلاگ</a>
+                    <a class="nav-element" href="#">سوالات متداول</a>
+                    <a class="nav-element" href="#">درباره ما</a>
+                    <a class="nav-element" href="#">ارتباط با ما</a>
+                    <div class="dark-theme-wrapper nav-element">
+                      <div class="dark-theme">
+                        <div class="circle"></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="sec-nav">
+                    <a class="sec-nav-element sec-nav-element-login" href="#">خروج</a>
+                </div>
+            </div>
+            <div class="menubtn">
+                <button id="menubtn"></button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="" class="form">
+            <div class="right-wrapper">
+                <div class="form-wrapper">
+                    <div class="form_name-wrapper">
+                        <input class="form_name-wrapper_family" type="text" placeholder="نام و نام خانوادگی">
+                        <input class="form_name-wrapper_father"  type="text" placeholder="نام پدر">
+                    </div>
+                    <div class="form_id-wrapper">
+                        <input type="text" placeholder="کدملی">
+                    </div>
+                    <div class="form_birth-wrapper">
+                        <div class="form_birth-title">تاریخ تولد</div>
+                        <select name="" id="" class="form_birth-year-select">
+                            <option value="">سال</option>
+                            <option value="">1382</option>
+                            <option value="">1381</option>
+                            <option value="">1380</option>
+                            <option value="">1379</option>
+                            <option value="">1378</option>
+                            <option value="">1377</option>
+                            <option value="">1376</option>
+                            <option value="">1375</option>
+                            <option value="">1374</option>
+                            <option value="">1373</option>
+                            <option value="">1372</option>
+                            <option value="">1371</option>
+                            <option value="">1370</option>
+                            <option value="">1369</option>
+                            <option value="">1368</option>
+                            <option value="">1367</option>
+                            <option value="">1366</option>
+                            <option value="">1365</option>
+                            <option value="">1364</option>
+                            <option value="">1363</option>
+                            <option value="">1362</option>
+                            <option value="">1361</option>
+                            <option value="">1360</option>
+                            <option value="">1359</option>
+                            <option value="">1358</option>
+                            <option value="">1357</option>
+                            <option value="">1356</option>
+                            <option value="">1355</option>
+                            <option value="">1354</option>
+                            <option value="">1353</option>
+                            <option value="">1352</option>
+                            <option value="">1351</option>
+                            <option value="">1350</option>
+                            <option value="">1349</option>
+                            <option value="">1348</option>
+                            <option value="">1347</option>
+                            <option value="">1346</option>
+                            <option value="">1345</option>
+                            <option value="">1344</option>
+                            <option value="">1343</option>
+                            <option value="">1342</option>
+                            <option value="">1341</option>
+                            <option value="">1340</option>
+                            <option value="">1339</option>
+                        </select>
+                        <select name="" id="" class="form_birth-month-select">
+                            <option value="">ماه</option>
+                            <option value="">فروردین</option>
+                            <option value="">اردیبهشت</option>
+                            <option value="">خرداد</option>
+                            <option value="">تیر</option>
+                            <option value="">مرداد</option>
+                            <option value="">شهریور</option>
+                            <option value="">مهر</option>
+                            <option value="">آبان</option>
+                            <option value="">آذر</option>
+                            <option value="">دی</option>
+                            <option value="">بهمن</option>
+                            <option value="">اسفند</option>
+                        </select>
+                        <select name="" id="" class="form_birth-day-select">
+                            <option value="">روز</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                    </div>
+                    <div class="form_num-wrapper">
+                        <input type="text" placeholder="تلفن همراه">
+                    </div>
+                    <div class="form_address-wrapper">
+                        <input type="text" placeholder="آدرس محل سکونت">
+                    </div>
+                    <div class="form_phone-wrapper">
+                        <input type="text" placeholder="تلفن محل سکونت">
+                    </div>
+                </div>
+                <div class="rule-wrapper m-none">
+                    <label class="rule-label">
+                        <input class="rule-input" type="checkbox">
+                        <span class="rule-span" class="checkmark"></span>
+                        <span class="rule-txt">
+                            موافقت با تمامی قوانین صرافی اکسکریپتویی</span>
+                  </label>
+                </div>
+                <div class="upload-wrapper m-none">
+                    <div class="upload_btn-id">
+                        <button>عکس کارت ملی</button>
+                        <input type="file" name="myfile" />
+                    </div>
+                    <div class="upload_btn-selfi">
+                        <button>سلفی به همراه کارت ملی</button>
+                        <input type="file" name="myfile" />
+                    </div>
+                </div>
+                <div class="note m-none">
+                    <p class="note-p"><span class="note-p-span"> * </span>با کلیک بر روی گزینه ارسال تمامی قوانین سایت از طرف شما پذیرفته میشود<span class="note-p-span"> * </span></p>
+                </div>
+                <div class="submit m-none">
+                    <button type="submit"> ارسال</button>
+                </div>
+            </div>
+            <div class="left-wrapper">
+                <div class="center-image">
+                    <img src="img/GJKADSGJKD.png" alt="">
+                </div>
+                <div class="details">
+                    <p class="details-p"><span class="details-p-span">متن دست نوشته که باید در فرم احراز هویت قرار بگیرد  :</span> اینجانب(نام و نام خانوادگی) با شماره ملی(کدملی) ضمن مطالعه و تایید قوانین و مقررات سامانه معاملاتی ارز های دیجیتال اکسکریپتویی و همچنین تایید اصالت مدارک ارسال شده برای احراز هویت، متعهد می گردم که اطلاعات حساب کاربری خود را به منظور خرید و فروش ارز های دیجیتال در اختیار سایر افراد قرار ندهم و هیچ گونه عملیاتی مخالف با قوانین نظام مقدس جمهوری اسلامی ایران انجام نخواهم داد و درصورت تخلف تمام مسؤلیت آن را اعم از مالی، قضایی و حقوقی به صورت کامل بر عهده می گیرم. </p>
+                </div>
+                <div class="introduction">
+                    <p class="introduction-p">نام و نام خانوادگی</p>
+                    <p class="introduction-p">تاریخ</p>
+                    <p class="introduction-p">امضا</p>
+                </div>
+            </div>
+            <div class="rule-wrapper dc-none">
+                <label class="rule-label">
+                    <input class="rule-input" type="checkbox">
+                    <span class="rule-span" class="checkmark"></span>
+                    <span class="rule-txt">
+                        موافقت با تمامی قوانین صرافی اکسکریپتویی</span>
+              </label>
+            </div>
+            <div class="upload-wrapper dc-none">
+                <div class="upload_btn-id">
+                    <button>عکس کارت ملی</button>
+                    <input type="file" name="myfile" />
+                </div>
+                <div class="upload_btn-selfi">
+                    <button>سلفی به همراه کارت ملی</button>
+                    <input type="file" name="myfile" />
+                </div>
+            </div>
+            <div class="note dc-none">
+                <p class="note-p"><span class="note-p-span"> * </span>با کلیک بر روی گزینه ارسال تمامی قوانین سایت از طرف شما پذیرفته میشود<span class="note-p-span"> * </span></p>
+            </div>
+            <div class="submit dc-none">
+                <button type="submit"> ارسال</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="top-footer">
+            <div class="footer-ele footer-main">
+                <img src="./img/Group 76.svg" alt="logo">
+                <div class="footer-main-a">
+                    <p>اکسکریپتویی بستری امن و حرفه ای جهت خرید، فروش و معامله ی ارز های دیجیتال است.</p>
+                    <div class="footer-contactus">
+                        <div class="footer-contactus-div">
+                            <img src="./img/Group 110.svg" alt="contact">
+                            <p>۰۲۱-۴۳۵۳۴۵۹۹</p>
+                        </div>
+                        <div class="footer-contactus-div">
+                            <img src="./img/Group 111.svg" alt="contact">
+                            <p>info@excryptoi.com</p>
+                        </div>
+                        <div class="footer-contactus-div">
+                            <img src="./img/Group 112.svg" alt="contact">
+                            <p>آذربایجان شرقی، تبریز، خیابان ولیعصر،‌پلاک ۵۶</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-ele ezuse">
+                <h2>دسترسی آسان</h2>
+                <div class="ezuse-a">
+                    <a href="#">سوالات متداول</a>
+                    <a href="#">قوانین و مقررات</a>
+                    <a href="#">کارمزد ها</a>
+                    <a href="#">درباره ما</a>
+                    <a href="#">خدمات</a>
+                </div>
+            </div>
+            <div class="footer-ele social">
+                <h2>شبکه های اجتماعی</h2>
+                <div class="social-a">
+                    <a href="#"><img src="./img/Group 106.png" alt="social">Excryptoi</a>
+                    <a href="#"><img src="./img/Group 107.png" alt="social">Excryptoi</a>
+                    <a href="#"><img loading="lazy" src="./img/Group 108.png" alt="social">Excryptoi</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="copyright-p">© 2021 | تمامی حقوق متعلق به سامانه معاملاتی ارز های دیجیتالی اکسکریپتویی میباشد</p>
+        </div>
+    </footer>
+    <script>
+        let btn = document.getElementById('menubtn');
+        let nav = document.getElementById('mainnav');
+        btn.addEventListener('click', function() {
+            nav.classList.toggle('togglenav');
+            btn.classList.toggle('togglebtn');
+        });
+    </script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
